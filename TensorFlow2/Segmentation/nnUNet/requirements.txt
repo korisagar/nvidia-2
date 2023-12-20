@@ -7,3 +7,4 @@ pynvml==8.0.4
 fsspec==0.8.0
 scikit-image==0.18.2
 tqdm==4.62
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
