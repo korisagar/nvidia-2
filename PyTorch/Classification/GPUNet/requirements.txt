@@ -14,3 +14,4 @@
 
 git+https://github.com/NVIDIA/dllogger@v1.0.0#egg=dllogger
 timm==0.5.4
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
