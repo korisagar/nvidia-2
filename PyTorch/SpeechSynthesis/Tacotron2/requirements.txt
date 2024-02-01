@@ -5,3 +5,4 @@ librosa
 scipy
 resampy==0.3.1
 git+https://github.com/NVIDIA/dllogger@v0.1.0#egg=dllogger
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
