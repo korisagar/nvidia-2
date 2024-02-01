@@ -22,3 +22,4 @@ PyYAML>=5.2
 tabulate>=0.8.7
 tqdm>=4.44.1
 triton-model-analyzer==1.22.0
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
