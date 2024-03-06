@@ -7,3 +7,4 @@ scikit-learn==1.0
 scikit-image==0.18.3
 scipy==1.8.1
 rich==12.5.0
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
