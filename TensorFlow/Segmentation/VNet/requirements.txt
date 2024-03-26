@@ -3,3 +3,4 @@ requests
 googledrivedownloader
 tf2onnx
 git+https://github.com/NVIDIA/dllogger#egg=dllogger
+onnx>=1.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
