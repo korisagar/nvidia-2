@@ -5,3 +5,4 @@ pynvml==8.0.4
 tqdm==4.64.1
 git+https://github.com/NVIDIA/dllogger
 git+https://github.com/NVIDIA/lddl.git
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
