@@ -12,3 +12,4 @@ nltk
 #Others
 onnxruntime
 git+https://github.com/NVIDIA/dllogger
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
