@@ -22,3 +22,5 @@ PyYAML>=5.2
 tabulate>=0.8.7
 tqdm>=4.44.1
 triton-model-analyzer==1.22.0
+gevent>=25.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
