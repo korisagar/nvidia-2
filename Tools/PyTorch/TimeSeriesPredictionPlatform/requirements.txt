@@ -23,3 +23,5 @@ hydra-optuna-sweeper==1.1.2
 hydra-joblib-launcher==1.1.5
 pandas==1.1.4
 dgl-cu111
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
