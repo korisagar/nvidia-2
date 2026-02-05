@@ -21,3 +21,5 @@ tabulate>=0.8.7
 natsort>=7.0.0
 # use tags instead of branch names - because there might be docker cache hit causing not fetching most recent changes on branch
 model_navigator @ git+https://github.com/triton-inference-server/model_navigator.git@v0.1.0#egg=model_navigator
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
